@@ -10,13 +10,13 @@ My generalized understanding;
 
  Alice and Bob generate private keys A and B respectively.
  
- Both Alice and Bob start at the same starting state G, and 'step' a number of times -their private respecting keys.
+ Both Alice and Bob start at the same starting state G, and 'step' a number of times -their respective private keys.
  
  When Alice and Bob exchange keys, the starting state G is substituted for the other's public key and 'stepped' their own private key's number of times.
  
  When done, the starting state G has been put through the function or 'stepped' A + B number of times in total, regardless of whether it was stepped A times or B times first.
  
- They both arrive at the same, and hence shared, secret.
+They both arrive at the same, and hence shared, secret.
 
 Therefore, as long as a function is difficult to reverse, the initial states are safe to be revealed to the public and it being run A times _then_ B times is always equivalent to B times _then_ A times, then the function can be used in this scenario.
 _This does not necessarily mean that the function will provide cryptographic security.
