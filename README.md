@@ -12,7 +12,7 @@ symmetric or sparse and some check should be put in place for repeating cycles o
 # My understanding of DH key exchange;
 Alice wants to establish a shared secret with Bob and decides to use DH key sharing.
 Alice picks a generator G, prime P and private key A_private.
-Alice uses this information to create her public key A_public using the one-way function  public = G ** private (mod P)
+Alice uses this information to create her public key A_public using the one-way function _public = G ** private (mod P)_
 
 --Alice sends her public key to Bob, along with G and P--
 
